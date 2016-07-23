@@ -1,0 +1,8 @@
+AddDefaultCharset utf-8
+
+
+AddHandler php5-script .php
+AddType text/html .php
+RewriteEngine on
+RewriteBase /
+RewriteRule ^(.*)$ index.php
